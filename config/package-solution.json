@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bannerspfx-client-side-solution",
+    "id": "f06d75d0-75b1-4a5c-9429-4da929fa6132",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "bannerspfx description"
+      },
+      "longDescription": {
+        "default": "bannerspfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "bannerspfx Feature",
+        "description": "The feature that activates elements of the bannerspfx solution.",
+        "id": "9b0ca2ce-c65b-48e9-b484-f957f2e27afb",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/bannerspfx.sppkg"
+  }
+}
